@@ -1,0 +1,9 @@
+1. create_router.js on the server end; on the client end GamesService.js picks them up.
+2. The client is responsible for the front end i.e. the user experience, while the server is where the information is stored and where changes to the database take place.
+3. server.js connects to the database and channels the data through the router.
+4. create_router.js? Get all results; get one result; add game; delete game; update game.
+5. GET, POST, PUT and DELETE requests and responses.
+6. An init object that lets you control settings - in this example it sets a POST request which is in json format (headers) and set the input as a string.
+7. get, delete, put
+8. Allows us to use JavaScript with it.
+9. Because MongoDB items do not have a unique id by default (or at least not one that’s automatically passed through), so we have to create one for them in our program.
